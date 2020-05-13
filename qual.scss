@@ -1,0 +1,32 @@
+body {
+    background-image: url("images/back.jpg");
+}
+h1 {
+    @extend %message;
+    text-align: center;
+    font-size: 160;
+    color: maroon;;
+    padding: 30px;
+}
+%message {
+    font-family: sans-serif;
+    ::selection {
+        color: red;
+        background-color: rgba(33, 138, 156, 0.39);
+    }
+
+}
+
+.col-6 h4 {
+    @extend %message;
+    font-size: 30px;
+    color: rgb(95, 2, 2);
+}
+.col-6 p, ul {
+    @extend %message;
+    font-size: 18px;
+    color: rgb(212, 23, 48);
+}
+.container {
+    padding: 10px;
+}

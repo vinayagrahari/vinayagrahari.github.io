@@ -1,0 +1,34 @@
+body {
+  background-image: url("images/back.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-size: 160;
+  color: maroon;
+  padding: 30px;
+}
+
+.col-6 p, ul, .col-6 h4, h1 {
+  font-family: sans-serif;
+}
+.col-6 p ::selection, ul ::selection, .col-6 h4 ::selection, h1 ::selection {
+  color: red;
+  background-color: rgba(33, 138, 156, 0.39);
+}
+
+.col-6 h4 {
+  font-size: 30px;
+  color: #5f0202;
+}
+
+.col-6 p, ul {
+  font-size: 18px;
+  color: #d41730;
+}
+
+.container {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=qual.css.map */
