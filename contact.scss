@@ -12,3 +12,10 @@ form {
     padding: 10px;
     border: 10px;
 }
+
+body {
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
