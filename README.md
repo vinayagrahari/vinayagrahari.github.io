@@ -1,3 +1,3 @@
-# Project 0
 This is a simple website which is developed on front end only
-Web Programming with Python and JavaScript
+Site Developed and maintained by: Vinay Kumar
+Site published at https://vinayagrahari.github.io/
